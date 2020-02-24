@@ -1,7 +1,7 @@
 <?php
   $database = [
      'aticle1' =>[
-       'title' => '<strong> How are you implementing the recent Court of Justice of the European Union (CJEU) decision on the right to be forgotten? </strong>',
+       'title' => 'How are you implementing the recent Court of Justice of the European Union (CJEU) decision on the right to be forgotten?',
        'text' => 'Testo1'
      ],
      'aticle2' =>[
@@ -59,8 +59,8 @@
         <ul class="faq">
           <?php foreach ($database as $articles => $data) {?>
             <li class= "article">
-              <h2><?php echo $data['title']?></h2>
-              <p><?php echo $data['text']?></p>
+              <h2 class= "title"><?php echo $data['title']?></h2>
+              <p class= "text"><?php echo $data['text']?></p>
             </li>
           <?php } ?>
         </ul>
