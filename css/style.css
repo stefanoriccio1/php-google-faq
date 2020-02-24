@@ -29,7 +29,7 @@ ul li{
   margin-right: 10px;
 }
 .logo p{
-  color: lightgrey;
+  color: grey;
 }
 .menu{
   justify-content:space-between;
@@ -44,10 +44,10 @@ ul li{
   color: black;
   list-style: none;
   text-decoration: none;
-  color: lightgrey;
+  color: grey;
 }
 .account{
-  color: lightgrey;
+  color: grey;
 }
 .navbar ul li:last-child{
   border-bottom: 3px solid blue;
@@ -62,4 +62,11 @@ ul li{
   margin: auto;
   padding-top: 50px;
   border: 1px solid black;
+}
+.title{
+  margin-bottom: 25px;
+}
+.text{
+  margin-bottom: 40px;
+  line-height: 20px;
 }

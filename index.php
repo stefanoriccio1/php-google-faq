@@ -2,7 +2,10 @@
   $database = [
      'aticle1' =>[
        'title' => 'How are you implementing the recent Court of Justice of the European Union (CJEU) decision on the right to be forgotten?',
-       'text' => 'Testo1'
+       'text' => 'The recent ruling by the Court of Justice of the European Union has profound consequences for search engines in Europe. The court found that certain users have the right to ask search engines like Google to remove results for queries that include the person s name. To qualify, the results shown would need to be inadequate, irrelevant, no longer relevant, or excessive.
+
+       
+       The recent ruling by the Court of Justice of the European Union has profound consequences for search engines in Europe. The court found that certain users have the right to ask search engines like Google to remove results for queries that include the person s name. To qualify, the results shown would need to be inadequate, irrelevant, no longer relevant, or excessive.'
      ],
      'aticle2' =>[
        'title' => 'Titolo2',
