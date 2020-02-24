@@ -17,22 +17,19 @@
        'text' => 'Testo4'
      ],
   ];
-var_dump($database);
-
-foreach ($database as $articles => $data) {
-  var_dump($articles);
-
-  foreach ($data as $key => $value) {
-    // var_dump($value);
-  }
-}
+// var_dump($database);
+//
+// foreach ($database as $articles => $data) {
+//   var_dump($articles);
+//   echo $data['title'];
+// }
 ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Google FAQ</title>
   </head>
   <body>
@@ -45,15 +42,9 @@ foreach ($database as $articles => $data) {
       <div class="wrapper">
         <ul class="faq">
           <?php foreach ($database as $articles => $data) {?>
-            <li class= "article"> <?php echo $articles ?>
-              <ul>
-                <?php foreach ($data as $key => $value) {?>
-                  <li class= "title"> <?php echo $value['title'] ?> </li>
-                <?php } ?>
-                <?php foreach ($data as $key => $value) {?>
-                  <li class= "text"> <?php echo $value['text'] ?> </li>
-                <?php } ?>
-              </ul>
+            <li class= "article">
+              <h2><?php echo $data['title']?></h2>
+              <p><?php echo $data['text']?></p>
             </li>
           <?php } ?>
         </ul>
