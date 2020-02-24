@@ -58,10 +58,9 @@ ul li{
 /* main */
 .wrapper{
   width: 70%;
-  height: calc(100vh - 90px);
+  height: calc(100% - 90px);
   margin: auto;
   padding-top: 50px;
-  border: 1px solid black;
 }
 .title{
   margin-bottom: 25px;
