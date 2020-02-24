@@ -41,7 +41,11 @@
         <nav class="menu flex">
           <div class="navbar">
             <ul>
-              <li><a></a></li>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">PrivacyPolicy</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Technologies</a></li>
+              <li ><a class="nav_faq" href="#">FAQ</a></li>
             </ul>
           </div>
           <div class="account">
