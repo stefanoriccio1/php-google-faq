@@ -18,4 +18,12 @@
      ],
   ];
 var_dump($database);
+
+foreach ($database as $articles => $data) {
+  // var_dump($articles .' - ' .$data);
+
+  foreach ($data as $key => $value) {
+    var_dump($value);
+  }
+}
 ?>
