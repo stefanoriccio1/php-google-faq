@@ -50,6 +50,8 @@ ul li{
   color: grey;
 }
 .navbar ul li:last-child{
+  padding-top: 15px;
+  padding-bottom: 10px;
   border-bottom: 3px solid blue;
 };
 .navbar ul li a.nav_faq{
