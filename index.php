@@ -1,7 +1,7 @@
 <?php
   $database = [
      'aticle1' =>[
-       'title' => 'Titolo1',
+       'title' => '<strong> How are you implementing the recent Court of Justice of the European Union (CJEU) decision on the right to be forgotten? </strong>',
        'text' => 'Testo1'
      ],
      'aticle2' =>[
@@ -48,7 +48,10 @@ foreach ($database as $articles => $data) {
             <li class= "article"> <?php echo $articles ?>
               <ul>
                 <?php foreach ($data as $key => $value) {?>
-                  <li class= "title"> <?php echo $value ?> </li>
+                  <li class= "title"> <?php echo $value['title'] ?> </li>
+                <?php } ?>
+                <?php foreach ($data as $key => $value) {?>
+                  <li class= "text"> <?php echo $value['text'] ?> </li>
                 <?php } ?>
               </ul>
             </li>
