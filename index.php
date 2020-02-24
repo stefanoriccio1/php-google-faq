@@ -47,7 +47,9 @@ foreach ($database as $articles => $data) {
           <?php foreach ($database as $articles => $data) {?>
             <li class= "article"> <?php echo $articles ?>
               <ul>
-
+                <?php foreach ($data as $key => $value) {?>
+                  <li class= "title"> <?php echo $value ?> </li>
+                <?php } ?>
               </ul>
             </li>
           <?php } ?>
