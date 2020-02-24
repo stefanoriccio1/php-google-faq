@@ -34,8 +34,20 @@
   </head>
   <body>
     <header>
-      <div class="container">
-
+      <div class="container flex">
+        <div class="logo flex">
+          <img src="img/googlelogo_color_74x24dp.png" alt="logo"> <p>Privacy & Terms</p>
+        </div>
+        <nav class="menu flex">
+          <div class="navbar">
+            <ul>
+              <li><a></a></li>
+            </ul>
+          </div>
+          <div class="account">
+            <p>Google Account</p>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
